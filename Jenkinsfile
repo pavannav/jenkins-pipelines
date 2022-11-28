@@ -1,6 +1,6 @@
 pipeline {
 
-agent slave-01
+agent any
 
 stages {
     stage('SCM') {
